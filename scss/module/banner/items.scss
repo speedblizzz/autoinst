@@ -1,0 +1,44 @@
+.items-wrap {
+	
+	width: 900px;
+	height: 530px;
+	margin: 0 auto;
+	padding-top: 200px;
+}
+
+
+
+.banner-item {
+	display: block;
+	float: left;
+	width: 30%;
+	padding: 20px 10px;
+	margin-right: 3%;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: rgba(0,0,0,0.5);
+	
+	
+	img {
+		display: block;
+		width: 150px;
+		height: 150px;
+		margin: 0 auto;
+	}
+	
+	h4 {
+		display: block;
+		height: 80px;
+		padding-top: 20px;
+		font-size: 2em;
+	}
+}
+.banner-item:nth-child(3) {
+	margin-right: 0;
+}
+
+ @media screen and (max-width: 1000px) {
+	.items-wrap {
+		width: 750px;
+	}
+} 

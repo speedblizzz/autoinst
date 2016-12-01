@@ -1,0 +1,24 @@
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+		 -o-box-sizing: border-box;	
+			box-sizing: border-box;
+
+}
+
+
+html,
+body {
+	overflow: auto;
+	background-color: $grey;
+	color: #fff;
+	min-width: 900px;
+	font-family: $mainFont;
+
+	
+}
+
+a {
+	text-decoration: none;
+}

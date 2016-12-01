@@ -1,0 +1,52 @@
+.edu-cycle {
+	width: 90%;
+	margin: 0 auto;
+	height: 480px;
+	margin-top: 50px;
+
+	.stage {
+		float: left;
+		width: 30%;
+		height: 410px;
+		margin: 0 1.5%;
+		text-align: left;
+		background-color: rgba(39,39,39,0.6);
+
+		h4 {
+			font-size: 3em;
+			padding-left: 20px;
+			padding-top: 10px;
+		}
+
+		img {
+			display: block;
+			width: 90%;
+			height: 150px;
+			margin: 0 auto;
+			margin-top: 20px;
+		}
+		p {	width: 90%;
+			margin: 0 auto;
+			font-size: 2em;
+			line-height: 1.5;
+			text-align: center;
+		}
+	}
+}
+
+ @media screen and (min-width: 1300px) {
+	.edu-cycle .stage  {
+		height: 450px;
+
+		img {
+			height: 200px;
+		}
+		
+	}
+} 
+@media screen and (max-width: 1000px) {
+	.edu-cycle .stage {
+		height: 400px;
+	}
+}
+

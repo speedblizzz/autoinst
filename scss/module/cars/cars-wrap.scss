@@ -1,0 +1,50 @@
+.cars-wrap {
+	width: 900px;
+	height: 370px;
+	margin: 0 auto;
+	padding-top: 50px;
+
+	.car {
+		display: block;
+		float: left;
+		width: 47%;
+		height: 320px;
+		margin-right: 6%;
+		text-align: center;
+		text-transform: uppercase;
+
+	
+	
+	img {
+		display: block;
+		width: 300px;
+		height: 200px;
+		margin: 0 auto;
+	}
+
+
+	
+	h4 {
+		padding-top: 20px;
+		font-size: 2em;
+		line-height: 1.5;
+	}
+
+	span {
+		font-weight: bold;
+	}
+
+	}
+
+
+	.car:last-child {
+	margin-right: 0;
+		}
+
+}
+
+@media screen and (max-width: 1000px) {
+	.car-wrap {
+		width: 750px;
+	}
+}

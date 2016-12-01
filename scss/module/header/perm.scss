@@ -1,0 +1,18 @@
+.perm {
+	width: 180px;
+	float: left;
+	margin-left: 50px;
+	padding-top: 30px;
+	font-size: 2em;
+	line-height: 1.2;
+	color: $yellow;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+@media screen and (max-width: 1000px) {
+	.perm {
+		margin-left: 0;
+	}
+}

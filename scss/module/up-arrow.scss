@@ -1,0 +1,21 @@
+.up-arrow {
+	display: none;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	width: 70px;
+	height: 70px;
+	z-index: 100;
+	padding-top: 45px;
+	font-size: 1.6em;
+	font-weight: bold;
+	color: $grey;
+	text-align: center;
+	text-transform: uppercase;
+	background-image: url("..//img/top.png");
+	background-size: 80% 80%;
+	background-repeat: no-repeat;
+	background-position: 7px -5px;
+	background-color: $yellow;
+	cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.container {
+	width: 970px;
+	margin: 0 auto;
+	background-color: $l-grey;
+}
+
+@media screen and (max-width: 1000px) {
+	.container {
+		width: 750px;
+	}
+}

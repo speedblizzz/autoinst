@@ -1,0 +1,39 @@
+.carousel {
+	width: 100%;
+	margin-top: 40px;
+	padding-bottom: 40px;
+
+	.plus {
+		width: 50%;
+		height: 550px;
+		font-size: 3em;
+		margin: 0 1%;
+		padding: 20px;
+		text-align: center;
+		text-transform: uppercase;
+		color: $grey;
+		background-color: $yellow;
+		}
+
+	img {
+			display: block;
+			width: 100%;
+			height: 430px;
+			margin: 0 auto;
+			padding-bottom: 40px;
+
+		}
+	
+}
+
+@media screen and (max-width: 1000px) {
+	.carousel{
+		.plus {
+			height: 480px;
+		}
+
+		img {
+			height: 350px;
+		}
+	}
+}
